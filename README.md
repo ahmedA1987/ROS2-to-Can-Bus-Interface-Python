@@ -3,7 +3,7 @@ This is a ROS2 pkg that contain ROS2 node in python language that recives the me
 
 # To run this node
 
-# 1- install the following
+1- install the following
 
 A) python 3 and the pip modul using the following commands
 
@@ -30,9 +30,9 @@ https://cantools.readthedocs.io/en/latest/
 
 $ pip install cantools
 
-# 2- install the needed drivers for your canbus adapter.
+2- install the needed drivers for your canbus adapter.
 
-# 3- Connect the USB to can Adapter and open terminal. In the terminal type the following command. Note that the bitrate have to be sane as your canbus bitrate so that you have to make sure to change it according to your CAN Bus specifications.
+3- Connect the USB to can Adapter and open terminal. In the terminal type the following command. Note that the bitrate have to be sane as your canbus bitrate so that you have to make sure to change it according to your CAN Bus specifications.
 
 $ sudo ip link set can0 up type can bitrate 500000
 $ sudo ip link set can0 up type can bitrate 250000
