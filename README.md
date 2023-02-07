@@ -42,3 +42,15 @@ This command is needed every time you start connecting to the CAN network.
 set the bitrate to the value you need and you can use the can0 or change the name to be preffared name. In the link below you can see also how to set virtual CAN port if you dont need to connect to real device.
 
 Source: https://python-can.readthedocs.io/en/stable/interfaces/socketcan.html
+
+4- Download the src.zip and unzip it in your work space folder. Then open terminal in your workspace and build the pkg  py typing the following command:
+
+$ colcon build
+
+5- Source the workspace using the follwoing command
+
+$ source install/setup.bash
+
+6- run the node using the following command
+
+$ ros2 run ros2_can_if can_interface
