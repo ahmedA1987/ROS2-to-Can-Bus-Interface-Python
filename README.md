@@ -32,7 +32,7 @@ $ pip install cantools
 
 2- install the needed drivers for your canbus adapter.
 
-3- Connect the USB to can Adapter and open terminal. In the terminal type the following command. Note that the bitrate have to be sane as your canbus bitrate so that you have to make sure to change it according to your CAN Bus specifications.
+3- Connect the USB to can Adapter and open terminal. In the terminal type the following command. Note that the bitrate have to be same as your canbus bitrate so that you have to make sure to change it according to your CAN Bus specifications.
 
 $ sudo ip link set can0 up type can bitrate 500000
 
